@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* *******************************************
+Project Name: heritage dairy foods
+Project Version: 1.0.0
+Agency: GIOPIO
+Author: Jakarea parvez
+URL: https://giopio.com/
+Theme color: #F53838;  
+Theme Primary Font Family: "Inter", serif;
+******************************************** */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    body {
+        @apply font-inter;
+        overflow-x: hidden;
+    }
+
+    button,
+    a,
+    input {
+        @apply focus-visible:outline-none;
+    } 
+
+}
+
+.anim {
+    @apply transition duration-500 ease-in-out;
+}
+ 
+
+/* custom responsive css */
+@media (min-width: 320px) and (max-width: 640px) {}
+
+@media (min-width: 641px) and (max-width: 768px) {}
+
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+@media (min-width: 1025px) and (max-width: 1290px) {}
+
+@media (min-width: 1291px) {}
