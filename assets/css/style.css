@@ -25,14 +25,14 @@ Theme Primary Font Family: "Inter", serif;
     a,
     input {
         @apply focus-visible:outline-none;
-    } 
+    }
 
 }
 
 .anim {
     @apply transition duration-500 ease-in-out;
 }
- 
+
 
 /* custom responsive css */
 @media (min-width: 320px) and (max-width: 640px) {}

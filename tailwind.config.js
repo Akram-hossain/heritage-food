@@ -12,7 +12,7 @@ module.exports = {
     container: {
       center: true, 
       padding: {
-        DEFAULT: '1.75rem',    
+        DEFAULT: '1.25rem',    
         sm: '2rem',           
         md: '2.5rem',          
         lg: '2.75rem',             
@@ -28,12 +28,18 @@ module.exports = {
       },
       backgroundColor: {
         'first': '#F53838',  
+        'second': '#B11116', 
+        'third': '#2E3192', 
+        'fourth': '#F7F7F7', 
+        'five': '#FF9C22', 
       },
       borderColor: {
         'first' : '#FFFAFA',  
       },
       colors: {
         'first': '#2A2A2A',   
+        'second': '#B11116',   
+        'third': '#484848',   
       },
     },
   },
