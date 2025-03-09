@@ -22,9 +22,10 @@ module.exports = {
     extend: {
       boxShadow: {  
         'first': '0px 4px 10px 0px #00000040',   
+        'second': '0px 5px 20px 0px #00000040', 
       }, 
       fontFamily: {
-        'inter': ['Inter', 'serif'],  
+        'hind_siliguri': ['Hind Siliguri', 'sans-serif'],  
       },
       backgroundColor: {
         'first': '#F53838',  

@@ -24,17 +24,19 @@
 <body class="anim">
 
   <!-- header section start -->
-  <header class="header-sec py-3">
+  <header class="header-sec py-3 xl:py-3.5">
     <div class="container">
       <div class="flex justify-between items-center flex-cosl xl:flex-row">
         <div class="left">
           <a href="#">
-            <img src="./assets/images/logo.svg" alt="Logo" class="mr-auto max-w-[200px]">
+            <img src="./assets/images/logo.svg" alt="Logo" class="mr-auto max-w-[200px] xl:max-w-[390px]">
           </a>
         </div>
         <div class="right">
-          <a href="#" class="bg-second text-white text-sm font-semibold py-2 px-4 rounded-md anim hover:bg-third">
-            <span class="hidden xl:inline">বিস্তারিত জানতে</span> বার্তা পাঠান
+          <a href="#"
+            class="bg-second text-white text-sm font-semibold py-2 px-4 rounded-md anim hover:bg-third xl:text-xl xl:py-2.5 xl:px-6 inline-flex items-center gap-x-2">
+            <span class="hidden xl:inline">বিস্তারিত জানতে</span> বার্তা পাঠান <img
+              src="./assets/images/icons/arrow-right.svg" alt="arrow">
           </a>
         </div>
       </div>
@@ -43,23 +45,31 @@
   <!-- header section end -->
 
   <!-- hero section -->
-  <section class="w-full bg-fourth py-20 relative">
+  <section class="w-full bg-fourth py-20 relative xl:min-h-[730px]">
     <div class="absolute top-0 left-0 w-full h-full">
-      <img src="./assets/images/hero-bg.webp" alt="hero" class="w-full h-full">
+      <img src="./assets/images/hero-bg.webp" alt="hero" class="w-full h-full xl:hidden">
+      <img src="./assets/images/hero-bg-desktop.png" alt="hero desktop"
+        class="w-full h-full object-contain hidden xl:flex">
     </div>
     <div class="container">
-      <div class="flex flex-col">
-        <div class="order-2 text-center relative">
-          <h1 class="font-bold text-4xl text-black">বগুড়ার আসল দই </h1>
-          <p class="font-medium text-lg xl:text-4xl tracking-[5px] my-4">বিশুদ্ধ স্বাদের ঐতিহ্য!</p>
+      <div class="flex flex-col xl:flex-row xl:items-center h-full xl:py-24 xl:justify-between">
+        <div class="order-2 text-center relative xl:order-1 xl:text-start">
+          <div class="relative">
+            <img src="./assets/images/green-leap.svg" alt="green-leap" class="hidden xl:flex absolute -left-2 -top-14">
+            <h1 class="font-bold text-4xl text-black xl:text-[72px] xl:leading-[100%]">বগুড়ার আসল দই</h1>
+            <img src="./assets/images/red-flower.svg" alt="red-flower" class="hidden xl:flex absolute right-3 -top-6">
+          </div>
+          <p class="font-medium text-lg xl:text-4xl tracking-[5px] my-4 xl:mb-10">বিশুদ্ধ স্বাদের ঐতিহ্য!</p>
           <a href="#"
-            class="bg-second text-white text-sm font-semibold py-3 px-7 rounded-md anim hover:bg-third">হোয়াটসঅ্যাপে
-            অর্ডার করুন</a>
+            class="bg-second text-white text-sm font-semibold py-3 px-6 rounded-md anim hover:bg-third xl:text-xl inline-flex items-center gap-x-3 shadow-second">এখনই
+            অর্ডার করুন
+            <img src="./assets/images/icons/arrow-right.svg" alt="arrow">
+          </a>
         </div>
-        <div class="img order-1 relative">
-          <img src="./assets/images/doi.png" alt="doi" class="mx-auto max-w-[90%]">
-          <div class="absolute top-0 left-0">
-            <img src="./assets/images/bogura-label.svg" alt="doi" class="mx-auto max-w-20">
+        <div class="order-1 relative xl:order-2 xl:text-end">
+          <img src="./assets/images/doi.png" alt="doi" class="mx-auto max-w-[90%] xl:max-w-[98%] xl:ml-auto xl:mx-0">
+          <div class="absolute top-0 left-0 xl:top-auto xl:-bottom-28 xl:left-auto xl:right-0">
+            <img src="./assets/images/bogura-label.svg" alt="doi" class="mx-auto max-w-20 xl:max-w-[140px]">
           </div>
         </div>
       </div>
@@ -68,14 +78,13 @@
   <!-- hero section -->
 
   <!-- cta section start -->
-  <section class="w-full py-7 bg-five">
+  <section class="w-full py-7 bg-five xl:py-10">
     <div class="container">
       <div class="text-center">
-        <h2 class="text-white text-lg font-medium xl:text-[28px] mb-6 border-b border-white pb-2">প্রীপেমেন্ট নেই?
-          সমস্যা নেই! উপভোগ করুন ঝামেলামুক্ত <span class="text-xl font-bold">ক্যাশ অন ডেলিভারি</span>!</h2>
+        <h2 class="text-white text-lg font-medium xl:text-[28px] mb-6 border-b border-white pb-2 xl:pb-4 xl:mb-8">আগে টাকা নয়? কোনো সমস্যা নেই! উপভোগ করুন ঝামেলাহীন  <span class="text-xl font-semibold xl:text-4xl">ক্যাশ অন ডেলিভারি</span>!</h2>
 
-        <p class="text-white font-normal text-sm">প্রীপেমেন্টের ঝামেলা নেই! অর্ডার করুন বগুড়ার দই, খাঁটি ঘি ও মুচমুচে
-          লাচ্ছা সেমাই, আর আমাদের নির্ভরযোগ্য রাইডার আপনার দোরগোড়ায় পৌঁছে দেবে একদম টাটকা পেমেন্ট করুন হাতে পাওয়ার
+        <p class="text-white font-normal text-sm xl:text-[22px] xl:leading-[150%]">প্রীপেমেন্টের ঝামেলা নেই! অর্ডার করুন বগুড়ার দই, খাঁটি ঘি ও মুচমুচে
+          লাচ্ছা সেমাই, আর আমাদের নির্ভরযোগ্য রাইডার আপনার <br class="hidden xl:block"> দোরগোড়ায় পৌঁছে দেবে একদম টাটকা পেমেন্ট করুন হাতে পাওয়ার
           পর—সহজ, নিরাপদ ও ঝামেলামুক্ত!</p>
       </div>
     </div>
@@ -83,20 +92,260 @@
   <!-- cta section end -->
 
   <!-- product list -->
-  <section class="w-full py-10">
+  <section class="w-full py-10 xl:py-[50px]">
     <div class="container">
-      <div class="w-full">
+      <div class="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-4 xl:gap-x-8">
         <!-- item -->
         <div class="w-full bg-[#FCFCFC] border border-[#DFDFDF] p-5 rounded-[4px]">
-          <div class="bg-white text-center py-4 min-h-[225px] flex justify-center items-center">
-            <img src="./assets/images/product-01.webp" alt="doi" class="w-full max-w-[50%]">
+          <div class="bg-white text-center p-4 min-h-[225px] flex justify-center items-center">
+            <img src="./assets/images/product-01.webp" alt="doi" class="w-full max-w-[50%] xl:max-w-[60%] object-contain">
           </div>
-          <div class="text-center mb-5 mt-4">
-            <h4 class="font-normal text-base xl:text-lg">বগুড়ার স্পেশাল শোরা দই</h4>
+          <div class="text-center mb-5 mt-4 xl:mt-5">
+            <h4 class="font-medium text-base xl:text-lg">চিনিপাতা কাপ দই</h4>
             <h5
-              class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 justify-center">
+              class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
               <span>৫০ গ্রাম </span>
               <span>৪০ ৳</span>
+            </h5>
+            <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
+              <a href="#"
+                class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
+                দেখুন
+                <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.5 4.5L21 12M21 12L13.5 19.5M21 12H3" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="#"
+                class="flex items-center justify-center py-1 xl:py-3 px-4 w-[109px] gap-x-2 rounded-sm bg-second h-12 anim hover:bg-third">
+                <img src="./assets/images/icons/shopping-cart.svg" alt="cart">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- item -->
+        <!-- item -->
+        <div class="w-full bg-[#FCFCFC] border border-[#DFDFDF] p-5 rounded-[4px]">
+          <div class="bg-white text-center p-4 min-h-[225px] flex justify-center items-center">
+            <img src="./assets/images/product-01.webp" alt="doi" class="w-full max-w-[50%] xl:max-w-[60%] object-contain">
+          </div>
+          <div class="text-center mb-5 mt-4 xl:mt-5">
+            <h4 class="font-medium text-base xl:text-lg">মালাই বাটি</h4>
+            <h5
+              class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
+              <span>৫০ গ্রাম </span>
+              <span>৫০ ৳</span>
+            </h5>
+            <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
+              <a href="#"
+                class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
+                দেখুন
+                <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.5 4.5L21 12M21 12L13.5 19.5M21 12H3" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="#"
+                class="flex items-center justify-center py-1 xl:py-3 px-4 w-[109px] gap-x-2 rounded-sm bg-second h-12 anim hover:bg-third">
+                <img src="./assets/images/icons/shopping-cart.svg" alt="cart">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- item -->
+        <!-- item -->
+        <div class="w-full bg-[#FCFCFC] border border-[#DFDFDF] p-5 rounded-[4px]">
+          <div class="bg-white text-center p-4 min-h-[225px] flex justify-center items-center">
+            <img src="./assets/images/product-01.webp" alt="doi" class="w-full max-w-[50%] xl:max-w-[60%] object-contain">
+          </div>
+          <div class="text-center mb-5 mt-4 xl:mt-5">
+            <h4 class="font-medium text-base xl:text-lg">প্রিমিয়াম শাহী বাটি</h4>
+            <h5
+              class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
+              <span>৫০ গ্রাম </span>
+              <span>৬০ ৳</span>
+            </h5>
+            <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
+              <a href="#"
+                class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
+                দেখুন
+                <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.5 4.5L21 12M21 12L13.5 19.5M21 12H3" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="#"
+                class="flex items-center justify-center py-1 xl:py-3 px-4 w-[109px] gap-x-2 rounded-sm bg-second h-12 anim hover:bg-third">
+                <img src="./assets/images/icons/shopping-cart.svg" alt="cart">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- item -->
+        <!-- item -->
+        <div class="w-full bg-[#FCFCFC] border border-[#DFDFDF] p-5 rounded-[4px]">
+          <div class="bg-white text-center p-4 min-h-[225px] flex justify-center items-center">
+            <img src="./assets/images/product-01.webp" alt="doi" class="w-full max-w-[50%] xl:max-w-[60%] object-contain">
+          </div>
+          <div class="text-center mb-5 mt-4 xl:mt-5">
+            <h4 class="font-medium text-base xl:text-lg">সরমালাই দই</h4>
+            <h5
+              class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
+              <span>৮০০ গ্রাম </span>
+              <span>৪০০ ৳</span>
+            </h5>
+            <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
+              <a href="#"
+                class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
+                দেখুন
+                <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.5 4.5L21 12M21 12L13.5 19.5M21 12H3" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="#"
+                class="flex items-center justify-center py-1 xl:py-3 px-4 w-[109px] gap-x-2 rounded-sm bg-second h-12 anim hover:bg-third">
+                <img src="./assets/images/icons/shopping-cart.svg" alt="cart">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- item -->
+        <!-- item -->
+        <div class="w-full bg-[#FCFCFC] border border-[#DFDFDF] p-5 rounded-[4px]">
+          <div class="bg-white text-center p-4 min-h-[225px] flex justify-center items-center">
+            <img src="./assets/images/product-01.webp" alt="doi" class="w-full max-w-[50%] xl:max-w-[60%] object-contain">
+          </div>
+          <div class="text-center mb-5 mt-4 xl:mt-5">
+            <h4 class="font-medium text-base xl:text-lg">প্রিমিয়াম শাহী দই</h4>
+            <h5
+              class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
+              <span>৮০০ গ্রাম </span>
+              <span>৫০০ ৳</span>
+            </h5>
+            <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
+              <a href="#"
+                class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
+                দেখুন
+                <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.5 4.5L21 12M21 12L13.5 19.5M21 12H3" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="#"
+                class="flex items-center justify-center py-1 xl:py-3 px-4 w-[109px] gap-x-2 rounded-sm bg-second h-12 anim hover:bg-third">
+                <img src="./assets/images/icons/shopping-cart.svg" alt="cart">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- item -->
+        <!-- item -->
+        <div class="w-full bg-[#FCFCFC] border border-[#DFDFDF] p-5 rounded-[4px]">
+          <div class="bg-white text-center p-4 min-h-[225px] flex justify-center items-center">
+            <img src="./assets/images/product-01.webp" alt="doi" class="w-full max-w-[50%] xl:max-w-[60%] object-contain">
+          </div>
+          <div class="text-center mb-5 mt-4 xl:mt-5">
+            <h4 class="font-medium text-base xl:text-lg">ডায়াবেটিস দই</h4>
+            <h5
+              class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
+              <span>৮০০ গ্রাম </span>
+              <span>৪০০ ৳</span>
+            </h5>
+            <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
+              <a href="#"
+                class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
+                দেখুন
+                <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.5 4.5L21 12M21 12L13.5 19.5M21 12H3" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="#"
+                class="flex items-center justify-center py-1 xl:py-3 px-4 w-[109px] gap-x-2 rounded-sm bg-second h-12 anim hover:bg-third">
+                <img src="./assets/images/icons/shopping-cart.svg" alt="cart">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- item -->
+        <!-- item -->
+        <div class="w-full bg-[#FCFCFC] border border-[#DFDFDF] p-5 rounded-[4px]">
+          <div class="bg-white text-center p-4 min-h-[225px] flex justify-center items-center">
+            <img src="./assets/images/product-01.webp" alt="doi" class="w-full max-w-[50%] xl:max-w-[60%] object-contain">
+          </div>
+          <div class="text-center mb-5 mt-4 xl:mt-5">
+            <h4 class="font-medium text-base xl:text-lg">অর্গানিক দই</h4>
+            <h5
+              class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
+              <span>৮০০ গ্রাম </span>
+              <span>৫০০ ৳</span>
+            </h5>
+            <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
+              <a href="#"
+                class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
+                দেখুন
+                <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.5 4.5L21 12M21 12L13.5 19.5M21 12H3" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="#"
+                class="flex items-center justify-center py-1 xl:py-3 px-4 w-[109px] gap-x-2 rounded-sm bg-second h-12 anim hover:bg-third">
+                <img src="./assets/images/icons/shopping-cart.svg" alt="cart">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- item -->
+        <!-- item -->
+        <div class="w-full bg-[#FCFCFC] border border-[#DFDFDF] p-5 rounded-[4px]">
+          <div class="bg-white text-center p-4 min-h-[225px] flex justify-center items-center">
+            <img src="./assets/images/product-01.webp" alt="doi" class="w-full max-w-[50%] xl:max-w-[60%] object-contain">
+          </div>
+          <div class="text-center mb-5 mt-4 xl:mt-5">
+            <h4 class="font-medium text-base xl:text-lg">ঘিয়ে ভাজা স্পেশাল লাচ্ছা সেমাই</h4>
+            <h5
+              class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
+              <span>৫০০ গ্রাম </span>
+              <span> ৭০০ ৳</span>
+            </h5>
+            <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
+              <a href="#"
+                class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
+                দেখুন
+                <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
+                  fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.5 4.5L21 12M21 12L13.5 19.5M21 12H3" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="#"
+                class="flex items-center justify-center py-1 xl:py-3 px-4 w-[109px] gap-x-2 rounded-sm bg-second h-12 anim hover:bg-third">
+                <img src="./assets/images/icons/shopping-cart.svg" alt="cart">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- item -->
+        <!-- item -->
+        <div class="w-full bg-[#FCFCFC] border border-[#DFDFDF] p-5 rounded-[4px]">
+          <div class="bg-white text-center p-4 min-h-[225px] flex justify-center items-center">
+            <img src="./assets/images/product-01.webp" alt="doi" class="w-full max-w-[50%] xl:max-w-[60%] object-contain">
+          </div>
+          <div class="text-center mb-5 mt-4 xl:mt-5">
+            <h4 class="font-medium text-base xl:text-lg">দানাদার গাওয়া ঘি </h4>
+            <h5
+              class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
+              <span>৫০০ গ্রাম </span>
+              <span>  ৯০০ ৳</span>
             </h5>
             <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
               <a href="#"
@@ -523,8 +772,11 @@
       <div class="text-center relative">
         <img src="./assets/images/banner-01.png" alt="banner" class="w-full h-[140px] rounded-md object-fill">
         <div class="text-center bg-[#B1111666] absolute left-0 top-0 rounded-md px-2 py-3 h-full w-full">
-          <h2 class="text-white font-semibold text-lg xl:text-[36px] mb-2">Get in touch and enjoy farm-fresh, authentic dairy products delivered directly to you!</h2>
-          <a href="#" class="bg-white text-second text-sm font-semibold py-2 px-4 rounded-md anim hover:bg-third">Message for Details</a>
+          <h2 class="text-white font-semibold text-lg xl:text-[36px] mb-2">Get in touch and enjoy farm-fresh, authentic
+            dairy products delivered directly to you!</h2>
+          <a href="#"
+            class="bg-white text-second text-sm font-semibold py-2 px-4 rounded-md anim hover:bg-third">Message for
+            Details</a>
         </div>
       </div>
     </div>
@@ -532,11 +784,12 @@
   <!-- cta section end -->
 
   <!-- footer section start -->
-   <footer class="w-full pt-12 pb-5 bg-[#F0F0F0]">
+  <footer class="w-full pt-12 pb-5 bg-[#F0F0F0]">
     <div class="container">
       <div class="flex flex-col gap-y-3">
         <h6 class="text-base xl:text-xl font-normal text-third flex items-center gap-x-2 justify-center">
-          <img src="./assets/images/icons/map.svg" alt="map">Bandighi, Erulia, Bogra 5800</h6>
+          <img src="./assets/images/icons/map.svg" alt="map">Bandighi, Erulia, Bogra 5800
+        </h6>
 
         <ul class="flex items-center justify-center gap-x-2">
           <li><span href="#" class="text-base xl:text-xl font-normal text-third">Follow by</span></li>
@@ -550,7 +803,7 @@
         <p class="text-sm font-normal">&copy; 2025 All Rights Reserved Designed by Giopio</p>
       </div>
     </div>
-   </footer>
+  </footer>
   <!-- footer section end -->
 
 
