@@ -33,6 +33,10 @@ Theme Primary Font Family: "Inter", serif;
     @apply transition duration-500 ease-in-out;
 }
 
+.common-bttn{
+   @apply bg-second text-white text-sm font-semibold py-3 px-6 rounded-md anim hover:bg-third xl:text-xl inline-flex items-center gap-x-3
+}
+
 
 /* custom responsive css */
 @media (min-width: 320px) and (max-width: 640px) {}
