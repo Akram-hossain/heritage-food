@@ -94,7 +94,8 @@
       <!-- slider -->
       <div class="swiper-slide">
         <section class="w-full hero-section py-20 relative xl:h-[730px]">
-          <img src="./assets/images/multiple-leaps.svg" alt="multiple-leaps" class="absolute right-0 top-0 z-30 hidden xl:flex">
+          <img src="./assets/images/multiple-leaps.svg" alt="multiple-leaps"
+            class="absolute right-0 top-0 z-30 hidden xl:flex">
           <img src="./assets/images/multiple-leaps.svg" alt="multiple-leaps"
             class="absolute left-0 bottom-0 z-30 rotate-180 hidden xl:flex">
           <div class="container">
@@ -1184,10 +1185,15 @@
         slidesPerView: 1,
         spaceBetween: 0,
         loop: true,
+        effect: "fade", // Enable fade effect
+        fadeEffect: {
+          crossFade: true, // Smooth fade transition
+        },
         autoplay: {
           delay: 4000,
           disableOnInteraction: false,
         },
+        speed: 2000, // Adjust transition speed for smoothness
         pagination: {
           el: ".swiper-pagination",
           clickable: true, // Allows users to click on dots to navigate
@@ -1199,6 +1205,7 @@
           1320: { slidesPerView: 1 },
         },
       });
+
       new Swiper(".reviewSwiper", {
         slidesPerView: 2,
         spaceBetween: 30,
