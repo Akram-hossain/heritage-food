@@ -38,6 +38,29 @@ Theme Primary Font Family: "Inter", serif;
 }
 
 
+
+.hero-section .swiper-paginations{
+    position: relative!important;
+    left: auto!important;
+    bottom: auto!important;
+    z-index: 999!important;
+    text-align: start;
+}
+
+.hero-section .swiper-pagination-bullet{
+    width: 20px!important;
+    height: 12px!important;
+    border-radius: 25px!important;
+    background-color: transparent!important;
+    border: 2px solid #b11116 !important;
+    opacity: 1!important;
+}
+
+.hero-section .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background: #b11116!important;
+    width: 55px!important;
+}
+
 /* custom responsive css */
 @media (min-width: 320px) and (max-width: 640px) {}
 
