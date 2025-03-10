@@ -50,7 +50,7 @@
 
   <!-- hero section -->
 
-  <div class="swiper heroBannerSwiper bg-fourth relative">
+  <div class="swiper hero-section heroBannerSwiper bg-fourth relative">
 
     <div class="absolute top-0 left-0 w-full h-full">
       <img src="./assets/images/hero-bg.webp" alt="hero" class="w-full h-full xl:hidden">
@@ -116,8 +116,8 @@
                 </a>
               </div>
               <div class="order-1 relative xl:order-2 xl:text-end">
-                <img src="./assets/images/ghee-bottle.webp" alt="ghee"
-                  class="mx-auto max-w-[90%] xl:max-w-[85%] xl:ml-auto xl:mx-0">
+                <img src="./assets/images/ghee.webp" alt="ghee"
+                  class="mx-auto max-w-[90%] xl:max-w-[95%] xl:ml-auto xl:mx-0">
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@
                 </a>
               </div>
               <div class="order-1 relative xl:order-2 xl:text-end">
-                <img src="./assets/images/laccha-img.webp" alt="laccha"
+                <img src="./assets/images/laccha.webp" alt="laccha"
                   class="mx-auto max-w-[90%] xl:max-w-[96%] xl:ml-auto xl:mx-0">
               </div>
             </div>
@@ -157,6 +157,8 @@
       </div>
       <!-- slider -->
     </div>
+    <div class="swiper-pagination"></div>
+
   </div>
   <!-- hero section -->
 
@@ -1183,10 +1185,10 @@
         fadeEffect: {
           crossFade: true, // Smooth fade transition
         },
-        // autoplay: {
-        //   delay: 4000,
-        //   disableOnInteraction: false,
-        // },
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
         speed: 2000, // Adjust transition speed for smoothness
         pagination: {
           el: ".swiper-pagination",
