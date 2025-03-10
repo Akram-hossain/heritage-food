@@ -32,7 +32,7 @@
     <div class="container">
       <div class="flex justify-between items-center flex-cosl xl:flex-row">
         <div class="left">
-          <a href="#">
+          <a href="index.html">
             <img src="./assets/images/logo.svg" alt="Logo" class="mr-auto max-w-[200px] xl:max-w-[390px]">
           </a>
         </div>
@@ -49,71 +49,114 @@
   <!-- header section end -->
 
   <!-- hero section -->
-  <section class="w-full hero-section bg-fourth py-20 relative xl:h-[730px]">
+
+  <div class="swiper heroBannerSwiper bg-fourth relative">
+
     <div class="absolute top-0 left-0 w-full h-full">
       <img src="./assets/images/hero-bg.webp" alt="hero" class="w-full h-full xl:hidden">
       <img src="./assets/images/hero-bg-desktop.png" alt="hero desktop"
         class="w-full h-full object-contain hidden xl:flex">
-
       <div class="absolute bottom-0 right-0 xl:bottom-10 xl:right-32">
         <img src="./assets/images/bogura-label.svg" alt="doi" class="mx-auto max-w-20 xl:max-w-[140px]">
       </div>
+    </div>
 
-    </div>
-    <div class="container">
-      <div class="swiper heroBannerSwiper">
-        <div class="swiper-wrapper xl:mx-3.5">
-          <!-- slider -->
-          <div class="swiper-slide flex flex-col xl:flex-row xl:items-center h-full xl:py-24 xl:justify-between">
-            <div class="order-2 text-center relative xl:order-1 xl:text-start">
-              <div class="relative">
-                <img src="./assets/images/green-leap.svg" alt="green-leap"
-                  class="hidden xl:flex absolute -left-2 -top-14">
-                <h1 class="font-bold text-4xl text-black xl:text-[72px] xl:leading-[100%]">বগুড়ার আসল দই</h1>
-                <img src="./assets/images/red-flower.svg" alt="red-flower"
-                  class="hidden xl:flex absolute right-3 -top-6">
+    <div class="swiper-wrapper">
+      <!-- slider -->
+      <div class="swiper-slide">
+        <section class="w-full hero-section py-20 relative xl:h-[730px]">
+          <div class="container">
+            <div class="flex flex-col xl:flex-row xl:items-center h-full xl:py-24 xl:justify-between">
+              <div class="order-2 text-center relative xl:order-1 xl:text-start">
+                <div class="relative">
+                  <img src="./assets/images/green-leap.svg" alt="green-leap"
+                    class="hidden xl:flex absolute -left-2 -top-14">
+                  <h1 class="font-bold text-4xl text-black xl:text-[72px] xl:leading-[100%]">বগুড়ার আসল দই</h1>
+                  <img src="./assets/images/red-flower.svg" alt="red-flower"
+                    class="hidden xl:flex absolute right-3 -top-6">
+                </div>
+                <p class="font-medium text-lg xl:text-4xl tracking-[5px] my-4 xl:mb-10">বিশুদ্ধ স্বাদের ঐতিহ্য!</p>
+                <a href="#"
+                  class="bg-second text-white text-sm font-semibold py-3 px-6 rounded-md anim hover:bg-third xl:text-xl inline-flex items-center gap-x-3 shadow-second">এখনই
+                  অর্ডার করুন
+                  <img src="./assets/images/icons/arrow-right.svg" alt="arrow">
+                </a>
               </div>
-              <p class="font-medium text-lg xl:text-4xl tracking-[5px] my-4 xl:mb-10">বিশুদ্ধ স্বাদের ঐতিহ্য!</p>
-              <a href="#"
-                class="bg-second text-white text-sm font-semibold py-3 px-6 rounded-md anim hover:bg-third xl:text-xl inline-flex items-center gap-x-3 shadow-second">এখনই
-                অর্ডার করুন
-                <img src="./assets/images/icons/arrow-right.svg" alt="arrow">
-              </a>
-            </div>
-            <div class="order-1 relative xl:order-2 xl:text-end">
-              <img src="./assets/images/doi.png" alt="doi"
-                class="mx-auto max-w-[90%] xl:max-w-[98%] xl:ml-auto xl:mx-0">
+              <div class="order-1 relative xl:order-2 xl:text-end">
+                <img src="./assets/images/doi.png" alt="doi"
+                  class="mx-auto max-w-[90%] xl:max-w-[98%] xl:ml-auto xl:mx-0">
+              </div>
             </div>
           </div>
-          <!-- slider -->
-          <!-- slider -->
-          <div class="swiper-slide flex flex-col xl:flex-row xl:items-center h-full xl:py-24 xl:justify-between">
-            <div class="order-2 text-center relative xl:order-1 xl:text-start">
-              <div class="relative">
-                <img src="./assets/images/green-leap.svg" alt="green-leap"
-                  class="hidden xl:flex absolute -left-2 -top-14">
-                <h1 class="font-bold text-4xl text-black xl:text-[72px] xl:leading-[100%]">বগুড়ার খাঁটি গাওয়া ঘি </h1>
-                <img src="./assets/images/red-flower.svg" alt="red-flower"
-                  class="hidden xl:flex absolute right-3 -top-6">
-              </div>
-              <p class="font-medium text-lg xl:text-4xl tracking-[5px] my-4 xl:mb-10">স্বাদের এক ঐতিহ্য!</p>
-              <a href="#"
-                class="bg-second text-white text-sm font-semibold py-3 px-6 rounded-md anim hover:bg-third xl:text-xl inline-flex items-center gap-x-3 shadow-second">এখনই
-                অর্ডার করুন
-                <img src="./assets/images/icons/arrow-right.svg" alt="arrow">
-              </a>
-            </div>
-            <div class="order-1 relative xl:order-2 xl:text-end">
-              <img src="./assets/images/products/danadar-ghaoja-ghi.png" alt="doi"
-                class="mx-auto max-w-[90%] xl:max-w-[85%] xl:ml-auto xl:mx-0">
-            </div>
-          </div>
-          <!-- slider -->
-        </div>
-        <div class="swiper-pagination"></div>
+        </section>
       </div>
+      <!-- slider -->
+      <!-- slider -->
+      <div class="swiper-slide">
+        <section class="w-full hero-section py-20 relative xl:h-[730px]">
+          <img src="./assets/images/multiple-leaps.svg" alt="multiple-leaps" class="absolute right-0 top-0 z-30 hidden xl:flex">
+          <img src="./assets/images/multiple-leaps.svg" alt="multiple-leaps"
+            class="absolute left-0 bottom-0 z-30 rotate-180 hidden xl:flex">
+          <div class="container">
+            <div class="flex flex-col xl:flex-row xl:items-center h-full xl:py-24 xl:justify-between">
+              <div class="order-2 text-center relative xl:order-1 xl:text-start">
+                <div class="relative">
+                  <img src="./assets/images/green-leap.svg" alt="green-leap"
+                    class="hidden xl:flex absolute -left-2 -top-14">
+                  <h1 class="font-bold text-4xl text-black xl:text-[72px] xl:leading-[100%]">বগুড়ার খাঁটি গাওয়া ঘি </h1>
+                  <img src="./assets/images/red-flower.svg" alt="red-flower"
+                    class="hidden xl:flex absolute right-3 -top-6">
+                </div>
+                <p class="font-medium text-lg xl:text-4xl tracking-[5px] my-4 xl:mb-10">স্বাদের এক ঐতিহ্য!</p>
+                <a href="#"
+                  class="bg-second text-white text-sm font-semibold py-3 px-6 rounded-md anim hover:bg-third xl:text-xl inline-flex items-center gap-x-3 shadow-second">এখনই
+                  অর্ডার করুন
+                  <img src="./assets/images/icons/arrow-right.svg" alt="arrow">
+                </a>
+              </div>
+              <div class="order-1 relative xl:order-2 xl:text-end">
+                <img src="./assets/images/products/danadar-ghaoja-ghi.png" alt="doi"
+                  class="mx-auto max-w-[90%] xl:max-w-[85%] xl:ml-auto xl:mx-0">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- slider -->
+      <!-- slider -->
+      <div class="swiper-slide">
+        <section class="w-full hero-section py-20 relative xl:h-[730px]">
+          <img src="./assets/images/symbols.svg" alt="symbols" class="absolute right-0 top-0 z-30 hidden xl:flex">
+          <div class="container">
+            <div class="flex flex-col xl:flex-row xl:items-center h-full xl:py-24 xl:justify-between">
+              <div class="order-2 text-center relative xl:order-1 xl:text-start">
+                <div class="relative">
+                  <img src="./assets/images/green-leap.svg" alt="green-leap"
+                    class="hidden xl:flex absolute -left-2 -top-14">
+                  <h1 class="font-bold text-4xl text-black xl:text-[72px] xl:leading-[130%]">বগুড়ার ঘিয়ে ভাজা স্পেশাল
+                    লাচ্ছা
+                    সেমাই </h1>
+                  <img src="./assets/images/red-flower.svg" alt="red-flower"
+                    class="hidden xl:flex absolute right-12 -top-6">
+                </div>
+                <p class="font-medium text-lg xl:text-4xl tracking-[5px] my-4 xl:mb-10">স্বাদের এক ঐতিহ্য!</p>
+                <a href="#"
+                  class="bg-second text-white text-sm font-semibold py-3 px-6 rounded-md anim hover:bg-third xl:text-xl inline-flex items-center gap-x-3 shadow-second">এখনই
+                  অর্ডার করুন
+                  <img src="./assets/images/icons/arrow-right.svg" alt="arrow">
+                </a>
+              </div>
+              <div class="order-1 relative xl:order-2 xl:text-end">
+                <img src="./assets/images/products/ghiye-bhaja-speshal-lacha-semai.png" alt="doi"
+                  class="mx-auto max-w-[90%] xl:max-w-[96%] xl:ml-auto xl:mx-0">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- slider -->
     </div>
-  </section>
+  </div>
   <!-- hero section -->
 
   <!-- cta section start -->
@@ -148,8 +191,8 @@
             <h4 class="font-medium text-base xl:text-lg">চিনিপাতা কাপ দই</h4>
             <h5
               class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
-              <span>৫০ গ্রাম </span>
-              <span>৪০ ৳</span>
+              <div><span class="font-inter">৫০</span> গ্রাম </div>
+              <div><span class="font-inter">৪০</span> ৳</div>
             </h5>
             <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
               <a href="products.html"
@@ -179,11 +222,11 @@
             <h4 class="font-medium text-base xl:text-lg">মালাই বাটি</h4>
             <h5
               class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
-              <span>৫০ গ্রাম </span>
-              <span>৫০ ৳</span>
+              <div><span class="font-inter">৫০</span> গ্রাম </div>
+              <div><span class="font-inter">৫০</span> ৳</div>
             </h5>
             <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
-              <a href="#"
+              <a href="products.html"
                 class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
                 দেখুন
                 <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
@@ -210,11 +253,11 @@
             <h4 class="font-medium text-base xl:text-lg">প্রিমিয়াম শাহী বাটি</h4>
             <h5
               class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
-              <span>৫০ গ্রাম </span>
-              <span>৬০ ৳</span>
+              <div><span class="font-inter">৫০</span> গ্রাম </div>
+              <div><span class="font-inter">৬০</span> ৳</div>
             </h5>
             <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
-              <a href="#"
+              <a href="products.html"
                 class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
                 দেখুন
                 <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
@@ -241,11 +284,11 @@
             <h4 class="font-medium text-base xl:text-lg">সরমালাই দই</h4>
             <h5
               class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
-              <span>৮০০ গ্রাম </span>
-              <span>৪০০ ৳</span>
+              <div><span class="font-inter">৮০০</span> গ্রাম </div>
+              <div><span class="font-inter">৪০০</span> ৳</div>
             </h5>
             <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
-              <a href="#"
+              <a href="products.html"
                 class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
                 দেখুন
                 <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
@@ -272,11 +315,11 @@
             <h4 class="font-medium text-base xl:text-lg">প্রিমিয়াম শাহী দই</h4>
             <h5
               class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
-              <span>৮০০ গ্রাম </span>
-              <span>৫০০ ৳</span>
+              <div><span class="font-inter">৮০০</span> গ্রাম </div>
+              <div><span class="font-inter">৫০০</span> ৳</div>
             </h5>
             <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
-              <a href="#"
+              <a href="products.html"
                 class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
                 দেখুন
                 <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
@@ -303,11 +346,11 @@
             <h4 class="font-medium text-base xl:text-lg">ডায়াবেটিস দই</h4>
             <h5
               class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
-              <span>৮০০ গ্রাম </span>
-              <span>৪০০ ৳</span>
+              <div><span class="font-inter">৮০০</span> গ্রাম </div>
+              <div><span class="font-inter">৪০০</span> ৳</div>
             </h5>
             <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
-              <a href="#"
+              <a href="products.html"
                 class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
                 দেখুন
                 <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
@@ -334,11 +377,11 @@
             <h4 class="font-medium text-base xl:text-lg">অর্গানিক দই</h4>
             <h5
               class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
-              <span>৮০০ গ্রাম </span>
-              <span>৫০০ ৳</span>
+              <div><span class="font-inter">৮০০</span> গ্রাম </div>
+              <div><span class="font-inter">৫০০</span> ৳</div>
             </h5>
             <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
-              <a href="#"
+              <a href="products.html"
                 class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
                 দেখুন
                 <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
@@ -365,11 +408,11 @@
             <h4 class="font-medium text-base xl:text-lg">ঘিয়ে ভাজা স্পেশাল লাচ্ছা সেমাই</h4>
             <h5
               class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
-              <span>৫০০ গ্রাম </span>
-              <span> ৭০০ ৳</span>
+              <div><span class="font-inter">৫০০</span> গ্রাম </div>
+              <div><span class="font-inter">৭০০</span> ৳</div>
             </h5>
             <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
-              <a href="#"
+              <a href="products.html"
                 class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
                 দেখুন
                 <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
@@ -396,11 +439,11 @@
             <h4 class="font-medium text-base xl:text-lg">দানাদার গাওয়া ঘি </h4>
             <h5
               class="xl:mb-10 mb-6 text-base xl:text-xl font-normal text-[#929292] mt-3 xl:mt-5 flex items-center gap-x-4 xl:gap-x-5 justify-center">
-              <span>৫০০ গ্রাম </span>
-              <span> ৯০০ ৳</span>
+              <div><span class="font-inter">৫০০</span> গ্রাম </div>
+              <div><span class="font-inter">৯০০</span> ৳</div>
             </h5>
             <div class="flex items-center justify-between gap-x-4 xl:gap-x-[23px]">
-              <a href="#"
+              <a href="products.html"
                 class="text-base h-12 xl:text-xl group font-normal text-[#B11116] flex items-center justify-center py-2 xl:py-3 px-8 gap-x-2 border border-[#E9E9E9] anim hover:bg-second hover:text-white w-full">বিস্তারিত
                 দেখুন
                 <svg width="24" class="text-[#B11116] group-hover:text-white" height="24" viewBox="0 0 24 24"
@@ -485,7 +528,8 @@
             <li class="flex items-center gap-x-2 xl:pt-5 xl:gap-x-4">
               <span
                 class="flex w-5 h-5 bg-second items-center justify-center rounded-full border-[4px] border-[#FFCBCB] shrink-0"></span>
-              <p class="text-base xl:text-xl font-normal text-third">১০০ শতাংশ প্রাকৃতিক এবং কেমিকাল মুক্ত এবং খাঁটি
+              <p class="text-base xl:text-xl font-normal text-third"><span class="font-inter">১০০</span> শতাংশ প্রাকৃতিক
+                এবং কেমিকাল মুক্ত এবং খাঁটি
                 দুগ্ধজাত পণ্য</p>
             </li>
             <li class="flex items-center gap-x-2 xl:pt-5 xl:gap-x-4">
@@ -830,16 +874,16 @@
                 <div class="max-w-[50%]">
                   <h6 class="text-sm xl:text-base font-normal text-black mb-2 xl:mb-2.5">পণ্যের সংখ্যা</h6>
                   <div class="border border-[#F2F2F2] flex items-center bg-[#EEEEEE]">
-                    <button type="button" class="w-[30px] text-center h-full xl:w-[60px]">-</button>
+                    <button type="button" class="w-[30px] text-center h-full xl:w-[60px] xl:text-base">-</button>
                     <input type="text"
-                      class="w-10 xl:w-[60px] h-[26px] xl:h-8 text-sm font-bold text-black xl:text-base text-center bg-white"
+                      class="w-10 xl:w-[60px] h-[26px] xl:h-8 text-sm font-normal text-black xl:text-base text-center bg-white font-inter"
                       value="১">
                     <button type="button" class="w-[30px] text-center xl:w-[60px]">+</button>
                   </div>
                 </div>
                 <div>
                   <h6 class="text-sm xl:text-base font-normal text-black mb-2 xl:mb-2.5">মূল্য</h6>
-                  <p class="text-sm xl:text-base font-normal text-black">৪০ ৳</p>
+                  <p class="text-sm xl:text-base font-normal text-black"><span class="font-inter">৪০</span> ৳</p>
                 </div>
               </div>
             </div>
@@ -863,14 +907,14 @@
                   <div class="border border-[#F2F2F2] flex items-center bg-[#EEEEEE]">
                     <button type="button" class="w-[30px] text-center h-full xl:w-[60px]">-</button>
                     <input type="text"
-                      class="w-10 xl:w-[60px] h-[26px] xl:h-8 text-sm font-bold text-black xl:text-base text-center bg-white"
+                      class="w-10 xl:w-[60px] h-[26px] xl:h-8 text-sm font-normal text-black xl:text-base text-center bg-white font-inter"
                       value="১">
                     <button type="button" class="w-[30px] text-center xl:w-[60px]">+</button>
                   </div>
                 </div>
                 <div>
                   <h6 class="text-sm xl:text-base font-normal text-black mb-2 xl:mb-2.5">মূল্য</h6>
-                  <p class="text-sm xl:text-base font-normal text-black">৫০ ৳</p>
+                  <p class="text-sm xl:text-base font-normal text-black"><span class="font-inter">৫০</span> ৳</p>
                 </div>
               </div>
             </div>
@@ -894,14 +938,14 @@
                   <div class="border border-[#F2F2F2] flex items-center bg-[#EEEEEE]">
                     <button type="button" class="w-[30px] text-center h-full xl:w-[60px]">-</button>
                     <input type="text"
-                      class="w-10 xl:w-[60px] h-[26px] xl:h-8 text-sm font-bold text-black xl:text-base text-center bg-white"
+                      class="w-10 xl:w-[60px] h-[26px] xl:h-8 text-sm font-normal text-black xl:text-base text-center bg-white font-inter"
                       value="১">
                     <button type="button" class="w-[30px] text-center xl:w-[60px]">+</button>
                   </div>
                 </div>
                 <div>
                   <h6 class="text-sm xl:text-base font-normal text-black mb-2 xl:mb-2.5">মূল্য</h6>
-                  <p class="text-sm xl:text-base font-normal text-black">৬০ ৳</p>
+                  <p class="text-sm xl:text-base font-normal text-black"><span class="font-inter">৬০</span> ৳</p>
                 </div>
               </div>
             </div>
@@ -925,21 +969,19 @@
                   <div class="border border-[#F2F2F2] flex items-center bg-[#EEEEEE]">
                     <button type="button" class="w-[30px] text-center h-full xl:w-[60px]">-</button>
                     <input type="text"
-                      class="w-10 xl:w-[60px] h-[26px] xl:h-8 text-sm font-bold text-black xl:text-base text-center bg-white"
+                      class="w-10 xl:w-[60px] h-[26px] xl:h-8 text-sm font-normal text-black xl:text-base text-center bg-white font-inter"
                       value="১">
                     <button type="button" class="w-[30px] text-center xl:w-[60px]">+</button>
                   </div>
                 </div>
                 <div>
                   <h6 class="text-sm xl:text-base font-normal text-black mb-2 xl:mb-2.5">মূল্য</h6>
-                  <p class="text-sm xl:text-base font-normal text-black">৪০০ ৳</p>
+                  <p class="text-sm xl:text-base font-normal text-black"><span class="font-inter">৪০০</span> ৳</p>
                 </div>
               </div>
             </div>
           </div>
           <!-- item -->
-
-
         </div>
       </div>
 
@@ -1005,13 +1047,13 @@
                     <img src="./assets/images/products/chini-pata.png" alt="cart" class="max-w-[65px]">
                   </div>
                   <div>
-                    <h6 class="text-base font-bold text-black">মালাই কাপ দই</h6>
-                    <p class="text-sm font-bold text-black">পণ্যের সংখ্যা ১</p>
+                    <h6 class="text-base font-semibold text-black">মালাই কাপ দই</h6>
+                    <p class="text-sm font-normal text-black">পণ্যের সংখ্যা <span class="font-inter">১</span></p>
                   </div>
                 </div>
               </td>
               <td class="py-2">
-                <p class="text-base xl:text-lg font-normal">৪০ ৳</p>
+                <p class="text-base xl:text-lg font-normal"><span class="font-inter">৪০</span> ৳</p>
               </td>
             </tr>
             <tr>
@@ -1024,7 +1066,7 @@
                 <h6 class="text-base xl:text-lg font-normal">মোট</h6>
               </td>
               <td>
-                <p class="text-base xl:text-lg font-normal">৪০ ৳</p>
+                <p class="text-base xl:text-lg font-normal"><span class="font-inter">৪০</span> ৳</p>
               </td>
             </tr>
             <tr>
@@ -1032,7 +1074,7 @@
                 <h6 class="text-base xl:text-lg font-normal">শিপিং</h6>
               </td>
               <td class="pt-5 xl:pt-20">
-                <p class="text-base xl:text-lg font-normal">৬০ ৳</p>
+                <p class="text-base xl:text-lg font-normal"><span class="font-inter">৬০</span> ৳</p>
               </td>
             </tr>
             <tr>
@@ -1045,7 +1087,7 @@
                 <h6 class="text-base xl:text-lg font-normal">সর্বমোট</h6>
               </td>
               <td>
-                <p class="text-base xl:text-lg font-bold">১০০ ৳</p>
+                <p class="text-base xl:text-lg font-bold"><span class="font-inter">১০০</span> ৳</p>
               </td>
             </tr>
           </table>
@@ -1091,7 +1133,8 @@
         <div
           class="text-center bg-[#00000066] absolute left-0 top-0 rounded-md px-2 py-3 h-full w-full xl:rounded-[20px] flex flex-col items-center justify-center">
           <h2 class="text-white font-semibold text-lg xl:text-[36px] mb-2 xl:leading-[150%] xl:mb-5">সম্ভাবনার নতুন
-            দুয়ার – এখন ১০০% দেশি গরুর দুধের পণ্য হাতের কাছেই! শুধুমাত্র <br class="hidden xl:block"> Heritage Dairy &
+            দুয়ার – এখন <span class="font-inter">১০০</span>% দেশি গরুর দুধের পণ্য হাতের কাছেই! শুধুমাত্র <br
+              class="hidden xl:block"> Heritage Dairy &
             Food Product-এ।</h2>
           <a href="#"
             class="bg-white text-second text-sm font-semibold py-3 px-6 rounded-md anim hover:bg-third xl:text-xl inline-flex items-center gap-x-3">
@@ -1113,7 +1156,8 @@
     <div class="container">
       <div class="flex flex-col gap-y-3 xl:flex-row xl:items-center xl:justify-between">
         <h6 class="text-base xl:text-xl font-normal text-third flex items-center gap-x-2 justify-center">
-          <img src="./assets/images/icons/map.svg" alt="map">বানদিঘী হাট, এরুলিয়া, বগুড়া ৫৮০০
+          <img src="./assets/images/icons/map.svg" alt="map">বানদিঘী হাট, এরুলিয়া, বগুড়া <span
+            class="font-inter">৫৮০০</span>
         </h6>
 
         <ul class="flex items-center justify-center gap-x-2 xl:gap-x-5">

@@ -26,6 +26,7 @@ module.exports = {
       }, 
       fontFamily: {
         'hind_siliguri': ['Hind Siliguri', 'sans-serif'],  
+        'inter': ['Inter', 'sans-serif'],  
       },
       backgroundColor: {
         'first': '#F53838',  
