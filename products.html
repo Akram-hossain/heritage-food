@@ -611,7 +611,11 @@
   </footer>
   <!-- footer section end -->
 
-  <script src="./assets/js/custom.js"></script>
+  <script>
+    import { injectSpeedInsights } from '@vercel/speed-insights';
+
+    injectSpeedInsights();
+  </script>
 
 
 </body>
